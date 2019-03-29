@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Montserrat');
+img {max-width:100%; height:auto;margin-left: auto; margin-right: auto; display:block;}
+/*note: colors and heights are used for placeholders until we add content. You can remove heights once the images are there*/
+class {max-width: 100%;height:auto;margin-left: auto; margin-right: auto; display:block;}
+#wrapper 
+{
+width:970px; /*or 90%, 95% etc*/ background-color:transparent; margin-left:auto; margin-right:auto;/*margin-bottom: auto; */
+}
+
+#header
+{
+background-color:transparent;/* margin-bottom:auto; overflow:auto; height: 150px;margin-top: auto;*/
+}
+
+#content {background-color: transparent;}
+#weekly special {background-color:transparent; /*height:250px;margin-bottom: auto;*//* width: 970px*/}
+#footer {clear:both; background-color:white;width: 100%; float: none/*width: 970px;*/ /*margin:auto auto; */}
+h3 {font-size: 13px; color: #737731}
+
+input[type=text], select, textarea {
+    width: 460px;
+    padding: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	margin-right: 10px;
+	margin-left: 20px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #737731;
+    color: white;
+    padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-left: 420px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #737731;
+}
+
+.container {
+	width: 500px;
+    border-radius: 5px;
+    background-color: #dad8b1;
+    padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px
+}
+
+
+/*header content*/
+
+#logo {/*width: 970px; height: 250px; */background-color: white; margin-left: auto; margin-right: auto; margin-bottom:5px; margin-top:5px;}
+
+/*about page*/
+#about-picture {float: left; margin-left:0px;margin-right: 0px;margin-top: 20px}
+#about-text {float: right; margin-left: 0px;margin-right: 30px; margin-top: 10px;}
+p {text-align: justify;width: 460px;}
+
+
+.drink-picture {margin-right:auto; margin-left: auto}
+.ball-picture {margin-right:auto; margin-left: auto}
+
+iframe {float: right;width: 430px;}
+.container{float: left}
+#address {float: right;width: 500px; margin-top: 10px; }
+
+
+#food-picture {width:479px; background-color:hotpink; margin-right:12px;/* height:630px;*/float:left;line-height:630px;}
+
+#food-text {width:479px; background-color:hotpink;height:630px;float:left;line-height:630px;}
+
+#catering-picture {width:479px; background-color:hotpink; margin-right:12px; /*height:310px;*/float:right;line-height:630;}
+#catering-picture-menu {width:479px; background-color:hotpink; margin-right:12px; /*height:310px;*/float:right;line-height:630; margin-top:10px}
+
+#catering-text {width:479px; background-color:hotpink;height:630px;float:left;line-height:630px; margin-top:auto}
+/*social media page*/
+.product {width:323px; height:270px; margin-right:0px;margin-left: 0px; float:left;margin-bottom: 1px; margin-top: 1px;} 
+.product:last-child {margin-right:0px;} 
+
+
+#freshjuice  {/*width:970px;*/ margin-left: auto;margin-right: auto;margin-bottom:10px;} 
+#freshjuice :last-child {margin-right:0px;} 
+
+#smoothies {/*width:970px;*/ margin-left: auto;margin-right: auto;margin-bottom:10px;}
+#smoothies :last-child {margin-right:0px;} 
+#salads  {/*width:970px;*/ margin-left: auto;margin-right: auto;margin-bottom:10px;} 
+#salads :last-child {margin-right:0px;}
+#sandwiches  {/*width:970px;*/ margin-left: auto;margin-right: auto;margin-bottom:10px;}
+#sandwiches :last-child {margin-right:0px;} 
+
+.submenu  {/*width:970px;*/ margin-right:11px;margin-bottom:10px;} 
+.submenu :last-child {margin-right:0px;} 
+
+.drinks-picture  { margin-right:0px;margin-top:10px;margin-bottom: 10px;margin-left: 0px; float: left; width: 485px} 
+.drinks-picture :last-child {margin-right:0px;} 
+
+.food-picture{margin-left: 0px;margin-top: 10px; margin-bottom: 10px;margin-right: 0px; float: right;width: 485px; }
+.food-picture :last-child {margin-right:0px;} 
+
+/*font styles, nav styles, etc*/
+body
+{
+/*font-family:*/font-size:16px; font-family: 'Comfortaa', cursive;color:#737731;font-weight:500;
+}
+#main-nav 
+{
+/*width: 970px;*/
+ height: 55px; background: #f2f2f2; max-width: 100%;
+text-align: justify;	
+/*position:absolute;*/
+/*margin-bottom: 2px; margin-top: 2px;*/
+vertical-align: baseline;
+}
+#main-nav .subnav 
+{
+display:none;
+position:absolute;
+top: 50px; 
+left: 0px;
+width: 100%;
+list-style-type: none;
+background: #fff;
+margin: 0;
+border:thick 1px #eeeeee;
+z-index:1000;
+padding:0;
+}
+#main-nav .subnav li 
+{
+display:block;
+border-bottom: solid 1px #eeeeee;
+margin:0;
+}
+#main-nav .subnav li a 
+{
+color: #333;
+height:18px;
+padding:10px 0;
+font-size:13px;
+}
+#main-nav .subnav li a:hover {background:#f9f9f9;}
+#nav-primary 
+{
+list-style-type: none;
+margin: 0;
+float: left;
+padding:0;
+}
+#nav-primary li 
+{
+    float: left;
+    position:relative;
+}
+#nav-primary li a 
+{
+
+float: left;
+color: #000;
+text-align: center;
+font-size: 14px;
+height: 35px;
+padding-top: 19px;
+line-height: 16px;
+width: 164px;
+text-decoration:none;
+}
+#nav-primary li a:hover {text-decoration:none; background-color:#E2DFA9; color:#737731;}
+#nav-primary li:hover .subnav {display: block; color:#f2e2;}
+
+@media (max-width: 400px) {
+	#wrapper{
+		width: auto;
+		margin-bottom: auto;
+		margin-top: 260px;
+		
+		
+	}
+	
+	
+	
+	#main-nav{
+		width: 50%;
+		position:absolute;
+		margin-top: -270px;
+		margin-bottom: auto;
+		margin-left: 95px;
+		
+		
+		
+			
+	}
+	#nav-primary{
+		position:inherit;
+		background:#FFFFFF;
+		float: none;
+		text-align: center;
+		vertical-align: baseline;
+		
+	}
+}
+	
+
+
+
+
